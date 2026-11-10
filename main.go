@@ -123,7 +123,7 @@ func filter(all []exercise, only, from int) []exercise {
 }
 
 func test(root, dir string) bool {
-	cmd := exec.Command("go", "test", "-count=1", "-timeout", "30s", "-race", "./"+dir)
+	cmd := exec.Command("go", "test", "-count=1", "-timeout", "30s", "-race", "./"+dir+"/...")
 	cmd.Dir = root
 	cmd.Stdout = os.Stdout
 	cmd.Stderr = os.Stderr

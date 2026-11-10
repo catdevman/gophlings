@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/catdevman/gophlings/01_functions"
+	"github.com/catdevman/gophlings/01_functions/functions"
 )
 
 func TestFoo(t *testing.T) {

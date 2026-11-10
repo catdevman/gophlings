@@ -6,7 +6,7 @@ import (
 )
 
 // Foo - change this function name from foo to Foo, Uppercase function names are for allowing calls from outside through the package.
-func Foo() {
+func foo() {
 	fmt.Println("Change this function name to Foo if you haven't already")
 	// since bar is within the same file and therefore the same package you can call it without the need to import a package or using uppercase
 	bar("Important parameter")

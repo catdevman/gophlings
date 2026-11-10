@@ -30,8 +30,10 @@ go run . -watch
 To test one exercise directly:
 
 ```
-go test ./04_variables
+go test ./04_variables/...
 ```
+
+`01_functions` is a program. Run it with `go run ./01_functions`.
 
 The exercises live in one module. Each directory is a separate package, so
 run `go test` on that directory rather than from inside a nested module.
